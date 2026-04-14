@@ -24,13 +24,13 @@ pipeline {
             }
         }
 
-        stage('Run Application') {
-    steps {
-        sh '''
-        echo "Running using Maven (with dependencies)..."
-        mvn exec:java -Dexec.mainClass="com.example.App"
-        '''
-    }
+        //stage('Run Application') {
+    //steps {
+        //sh '''
+        //echo "Running using Maven (with dependencies)..."
+       // mvn exec:java -Dexec.mainClass="com.example.App"
+       // '''
+    //}
 }
     }
 
